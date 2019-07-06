@@ -18,5 +18,10 @@
       width: 150px;
       height: 50px;
     }
+    @media (max-width:992px){
+      width: 90vw;
+      height: 65vh;
+      font-size: 0.8rem;
+    }
   }
 }

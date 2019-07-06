@@ -2,10 +2,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  @media (max-width:992px){
+    height: 200vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  @media (max-width:762px){
+    height: 300vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }
    
 @for $i from 1 through 6{
   .portfolio__tail:nth-of-type(#{$i}){
-    background-image: url("../images/gallery#{$i}.png")
+    background-image: url("../images/gallery#{$i}.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
