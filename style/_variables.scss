@@ -1,0 +1,11 @@
+$bright:#FFFFFF;
+$brightSecond:#EFEEE9;
+$dark:#353535;
+
+
+@mixin flexCenter($dir,$spacing) {
+  justify-content: $spacing;
+  flex-direction: $dir;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+@import "./variables";
+@import "./mainHeader";
+@import "./home";
+@import "./about";
+@import "./portfolio";
+@import "./articles";
+@import "./contact";
+
+
+
+
+*{
+  margin: 0;
+  padding:0;
+  scroll-behavior: smooth;
+}
+body{
+  color:$dark;
+  
+}
+.veiwSection{
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+

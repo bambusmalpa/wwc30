@@ -1,0 +1,22 @@
+.veiwSection.about{
+  @include flexCenter(column, center);
+  background-color: $brightSecond;
+  >.aboutContainer{
+    @include flexCenter(column, space-around);
+    color:$dark;
+    background-color: $bright;
+    width: 60vw;
+    height: 60vh;
+    >.aboutContainer__paragraph{
+      width: 80%;
+    }
+    >.aboutContainer__button{
+      background-color: transparent;
+      border:2px solid $dark;
+      text-transform: uppercase;
+      font-weight: 700;
+      width: 10vw;
+      height: 3vw;
+    }
+  }
+}

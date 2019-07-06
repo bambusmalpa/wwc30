@@ -1,0 +1,11 @@
+.veiwSection.portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+   
+@for $i from 1 through 6{
+  .portfolio__tail:nth-of-type(#{$i}){
+    background-image: url("../images/gallery#{$i}.png")
+  }
+}
