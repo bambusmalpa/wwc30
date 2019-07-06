@@ -1,10 +1,12 @@
 .mainHeader{
+  
   position: fixed;
   height: 15vh;
   width: 100vw;
   background-color: rgba(255,255,255,0.9);
   @include flexCenter(row, space-around);
   z-index: 100;
+  
   >.mainHeader__nav{
   height: 100%;
   
@@ -13,7 +15,7 @@
     width: 50vw;
     list-style: none;
     @include flexCenter(row, space-around);
-    @media (max-width:992px){
+    @media (max-width:1200px){
       width: 100vw;
     }
     >.nav__element{
@@ -24,8 +26,11 @@
         width: 30%;
         >.nav__link{
           font-size: 2rem;
-          @media (max-width:992px){
+          @media (max-width:1200px){
             font-size: 1rem;
+          }
+          @media (max-width:992px){
+            font-size: 0.8rem;
           }
         }
       }
@@ -43,6 +48,4 @@
     }
   }
   }}
-  @media (max-width:992px){
-
-  }
+  
