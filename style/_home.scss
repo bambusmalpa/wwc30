@@ -1,6 +1,7 @@
 .veiwSection.home{
   background-image: url("../images/homeBackground.png");
   background-size: cover;
+  background-attachment: fixed;
   >.home__paragraph{
     position: absolute;
     top:70%;

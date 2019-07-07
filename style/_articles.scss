@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     width: 50vw;
     height: 100vh;
   }
@@ -33,10 +34,10 @@
     }
     >.aricles__topics{
       width: 100vw;
-      height: 100%;
+      height: 90%;
       >.singleTopic{
         width: 70%;
-       
+        font-size: 0.6rem;
       }
     }
   }
